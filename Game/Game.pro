@@ -18,7 +18,14 @@ DEPENDPATH  += "..\SFML-2.5.1\include"
 
 
 SOURCES += \
+        src/Sprite.cpp \
+        src/Texture.cpp \
         App/main.cpp \
+
+
+HEADERS += \
+        include/Sprite.hpp \
+        include/Texture.hpp \
 
 
 
